@@ -1,0 +1,19 @@
+<div blg-menu menu-title="AngularJS Blog"></div> 
+<div id="container" class="container"> 
+    <div class="blog-post-label">Blog Entry</div>
+    <div class="blog-entry-wrapper">
+        <div class="blog-intro-text">
+            Posted: {{blogEntry.date| date:'MM/dd/yyyy @ h:mma'}}
+        </div>
+        <div class="blog-entry-outer">            
+            {{blogEntry.blogText}}
+        </div>
+        <div class="blog-comment-wrapper">
+            <div class="blog-comment-label">Blog Comments</div>
+            <div class="blog-entry-comments"  ng-repeat="comment in blogEntry.comments">
+                {{comment.commentText}}
+            </div>
+        </div>
+    </div>
+</div>
+

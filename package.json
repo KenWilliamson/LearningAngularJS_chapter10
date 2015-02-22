@@ -1,0 +1,12 @@
+{
+    "name": "package.json",
+    "devDependencies": {
+        "karma": "*",
+        "karma-chrome-launcher": "*",
+        "karma-firefox-launcher": "*",
+        "karma-jasmine": "*",
+        "karma-junit-reporter": "*",
+        "karma-coverage": "*",
+        "karma-ng-html2js-preprocessor": "~0.1"
+    }
+}
